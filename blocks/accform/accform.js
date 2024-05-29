@@ -3,9 +3,9 @@ export default async function decorate(block) {
     <h1> ACC form v2 </h1>
     <p>
     HELLO acc form　v２ with EDS
-    <form action="http://localhost:3333/text">
+    <form method="POST" action="http://localhost:3333/text">
     <input type="text" name="edstext"/>
-    <submit>
+    <input type="submit" value="OK">
     </form>
     `;
 }
