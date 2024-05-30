@@ -36,7 +36,7 @@ export default async function decorate(block) {
     </ul>
     </form>
     <p>
-    ACC Form v0.4
+    ACC Form v0.5
     `;
 
     const form = document.getElementById("inquiry");
@@ -50,8 +50,8 @@ export default async function decorate(block) {
             // APIコール
             // https://demosystem5-mkt-prod12.campaign.adobe.com/cus/newLead.jssp
             // http://localhost:3333/text
-            //await window.fetch("https://demosystem5-mkt-prod12.campaign.adobe.com/cus/newLead.jssp", {
-            await window.fetch("http://localhost:3333/text", {
+            await window.fetch("https://demosystem5-mkt-prod12.campaign.adobe.com/cus/newLead.jssp", {
+            //await window.fetch("http://localhost:3333/text", {
                 method: "POST",
                 body: JSON.stringify(data),
             });
