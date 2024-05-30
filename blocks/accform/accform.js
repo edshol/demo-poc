@@ -33,13 +33,6 @@ export default async function decorate(block) {
         <li>
             <input type="submit" value="OK">
         <li>
-        <li>
-        </li>
-        <li>
-            <input type="checkbox" id="input-checkbox-one"
-             class="requiredField input-checkbox"
-             required-msg="โปรดยอมรับข้อกำหนดและเงื่อนไข">
-        </li>
     </ul>
     </form>
     <p>
