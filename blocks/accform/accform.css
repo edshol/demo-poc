@@ -1,5 +1,5 @@
 .accform {
-    background-color:rgb(254, 254, 254);
+    background-color: rgb(254, 254, 254);
 }
 
 .accform input[type=text] {
@@ -18,15 +18,26 @@
     letter-spacing: 0.00625rem;
     color: #333d47;
     width: 90%;
-s}
+}
+
+.accform input[type=submit] {
+    color: white;
+    background: #d31145;
+    padding: 1rem;
+    border: 0.06525rem solid #d31145;
+    border-radius: .25rem;
+    letter-spacing: 0.00625rem;
+    /* width: 300px; */
+    padding: 10px 40px;
+}
 
 .accform ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  margin-bottom: 60px;
-  list-style: none;
-  padding-left: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 60px;
+    list-style: none;
+    padding-left: 1rem;
 
 }
 
