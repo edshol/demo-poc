@@ -17,7 +17,8 @@
     border-radius: .25rem;
     letter-spacing: 0.00625rem;
     color: #333d47;
-}
+    width: 90%;
+s}
 
 .accform ul {
   display: grid;
@@ -29,6 +30,6 @@
 
 }
 
-.accform li {
+.accform lable {
     display: block;
 }
