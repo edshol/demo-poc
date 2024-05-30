@@ -1,10 +1,14 @@
 export default async function decorate(block) {
     block.innerHTML = `
-    <h1> ACC form v4 </h1>
+    <h1> ACC form v0.1 </h1>
     <p>
-    HELLO acc form v4 with EDS
+    HELLO acc form v0.1 with EDS
     <form id="inquiry" >
-    <input type="text" name="edstext"/>
+    <input type="text" name="email"  value="T2+test@betest.com"/>
+    <input type="text" name="mobile"  value="0801234123"/>
+    <input type="text" name="firstName"  value="TE"/>
+    <input type="text" name="lastName"  value="KA"/>
+    <input type="text" name="state" value="TOKYO"/>
     <input type="submit" value="OK">
     </form>
     `;
@@ -18,12 +22,15 @@ export default async function decorate(block) {
     
         try {
             // APIコール
+            // https://demosystem5-mkt-prod12.campaign.adobe.com/cus/newLead.jssp
+            // http://localhost:3333/text
+            //await window.fetch("https://demosystem5-mkt-prod12.campaign.adobe.com/cus/newLead.jssp", {
             await window.fetch("http://localhost:3333/text", {
                 method: "POST",
                 body: JSON.stringify(data),
             });
     
-            window.alert("送信しました。");
+            window.alert("Submitted..");
     
             // 完了時に入力値をクリア
             form.reset();
