@@ -36,7 +36,7 @@ export default async function decorate(block) {
     </ul>
     </form>
     <p>
-    ACC Form v0.51
+    ACC Form v0.52
     `;
 
     const form = document.getElementById("inquiry");
@@ -63,6 +63,7 @@ export default async function decorate(block) {
     
         } catch (e) {
             console.log(e);
+            window.alert(e);
         }
     });
 
