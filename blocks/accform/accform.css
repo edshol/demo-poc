@@ -8,6 +8,7 @@
     border-radius: .25rem;
     letter-spacing: 0.00625rem;
     color: #333d47;
+    width: 90%;
 }
 
 .accform select {
@@ -18,3 +19,16 @@
     color: #333d47;
 }
 
+.accform ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 60px;
+  list-style: none;
+  padding-left: 1rem;
+
+}
+
+.accform li {
+    display: block;
+}
