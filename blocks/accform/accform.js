@@ -1,8 +1,5 @@
 export default async function decorate(block) {
     block.innerHTML = `
-    <h1> ACC form v0.2 </h1>
-    <p>
-    HELLO acc form v0.2 with EDS
     <form id="inquiry" >
     <input type="text" name="email"  value="T2+test@betest.com"/>
     <input type="text" name="mobile"  value="0801234123"/>
@@ -11,6 +8,8 @@ export default async function decorate(block) {
     <input type="text" name="state" value="TOKYO"/>
     <input type="submit" value="OK">
     </form>
+    <p>
+    ACC Form v0.3
     `;
 
     const form = document.getElementById("inquiry");
