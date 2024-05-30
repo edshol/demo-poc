@@ -1,11 +1,22 @@
 export default async function decorate(block) {
     block.innerHTML = `
     <form id="inquiry" >
-    <input type="text" name="email"  value="T2+test@betest.com"/>
-    <input type="text" name="mobile"  value="0801234123"/>
-    <input type="text" name="firstName"  value="TE"/>
+    <label for="firstName"> firstName </label>
+    <input type="text" name="firstName" id="firstName"  value="TE"/>
+    <label for="lastName"> lastName </label>
     <input type="text" name="lastName"  value="KA"/>
-    <input type="text" name="state" value="TOKYO"/>
+    <label for="state"> Country Code </label>
+    <select name="state" id="state">
+        <option value="tokyo">TOKYO</option>
+        <option value="b">b</option>
+        <option value="c">c</option>
+        <option value="d">d</option>
+        <option value="e">e</option>
+    </select>
+    <label for="mobile"> mobile </label>
+    <input type="text" name="mobile" id="mobile"  value="0801234123"/>
+    <label for="email"> email </label>
+    <input type="text" name="email"  id="email" value="T2+test@betest.com"/>
     <input type="submit" value="OK">
     </form>
     <p>
