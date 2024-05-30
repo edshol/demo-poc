@@ -1,26 +1,40 @@
 export default async function decorate(block) {
     block.innerHTML = `
     <form id="inquiry" >
-    <label for="firstName"> firstName </label>
-    <input type="text" name="firstName" id="firstName"  value="TE"/>
-    <label for="lastName"> lastName </label>
-    <input type="text" name="lastName"  value="KA"/>
-    <label for="state"> Country Code </label>
-    <select name="state" id="state">
-        <option value="tokyo">TOKYO</option>
-        <option value="b">b</option>
-        <option value="c">c</option>
-        <option value="d">d</option>
-        <option value="e">e</option>
-    </select>
-    <label for="mobile"> mobile </label>
-    <input type="text" name="mobile" id="mobile"  value="0801234123"/>
-    <label for="email"> email </label>
-    <input type="text" name="email"  id="email" value="T2+test@betest.com"/>
-    <input type="submit" value="OK">
+    <ul>
+        <li>    
+            <label for="firstName"> firstName </label>
+            <input type="text" name="firstName" id="firstName"  value="TE"/>
+        </li>
+        <li>
+            <label for="lastName"> lastName </label>
+            <input type="text" name="lastName"  value="KA"/>
+        </li>
+        <li>
+            <label for="state"> Country Code </label>
+            <select name="state" id="state">
+                <option value="tokyo">TOKYO</option>
+                <option value="b">b</option>
+                <option value="c">c</option>
+                <option value="d">d</option>
+                <option value="e">e</option>
+            </select>
+        </li>
+        <li>
+            <label for="mobile"> mobile </label>
+            <input type="text" name="mobile" id="mobile"  value="0801234123"/>
+        </li>
+        <li>
+            <label for="email"> email </label>
+            <input type="text" name="email"  id="email" value="T2+test@betest.com"/>
+        </li>
+        <li>
+            <input type="submit" value="OK">
+        <li>
+    </ul>
     </form>
     <p>
-    ACC Form v0.3
+    ACC Form v0.4
     `;
 
     const form = document.getElementById("inquiry");

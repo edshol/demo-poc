@@ -9,3 +9,12 @@
     letter-spacing: 0.00625rem;
     color: #333d47;
 }
+
+.accform select {
+    padding: 1rem;
+    border: 0.06525rem solid #8f9e9a;
+    border-radius: .25rem;
+    letter-spacing: 0.00625rem;
+    color: #333d47;
+}
+
