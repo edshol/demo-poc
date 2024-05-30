@@ -1,8 +1,8 @@
 export default async function decorate(block) {
     block.innerHTML = `
-    <h1> ACC form v0.1 </h1>
+    <h1> ACC form v0.2 </h1>
     <p>
-    HELLO acc form v0.1 with EDS
+    HELLO acc form v0.2 with EDS
     <form id="inquiry" >
     <input type="text" name="email"  value="T2+test@betest.com"/>
     <input type="text" name="mobile"  value="0801234123"/>
