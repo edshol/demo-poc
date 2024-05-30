@@ -33,10 +33,17 @@ export default async function decorate(block) {
         <li>
             <input type="submit" value="OK">
         <li>
+        <li>
+        </li>
+        <li>
+            <input type="checkbox" id="input-checkbox-one"
+             class="requiredField input-checkbox"
+             required-msg="โปรดยอมรับข้อกำหนดและเงื่อนไข">
+        </li>
     </ul>
     </form>
     <p>
-    ACC Form v0.5
+    ACC Form v0.51
     `;
 
     const form = document.getElementById("inquiry");
